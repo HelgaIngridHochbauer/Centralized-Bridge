@@ -2,6 +2,9 @@
 
 A centralized bridge application that allows users to transfer IBT (Inter-Blockchain Token) tokens between Ethereum and Sui blockchains.
 
+<img width="1650" height="913" alt="image" src="https://github.com/user-attachments/assets/a5e52bde-9fed-46dd-a9d3-df3e22e2c909" />
+
+
 ## Features
 
 - ✅ Dual blockchain support (Ethereum via Anvil, Sui localnet)
@@ -10,6 +13,8 @@ A centralized bridge application that allows users to transfer IBT (Inter-Blockc
 - ✅ Cross-chain token bridging (burn on source, mint on destination)
 - ✅ Real-time balance display
 - ✅ Modern, responsive UI
+
+<img width="1417" height="919" alt="image" src="https://github.com/user-attachments/assets/51e9dd17-e85e-4126-b802-06b7db67c08f" />
 
 ## Prerequisites
 
