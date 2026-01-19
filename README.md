@@ -47,6 +47,21 @@ Before you begin, ensure you have the following installed:
     └── components/   # React components
 ```
 
+## Architecture Diagram
+
+```
+┌─────────────────┐                      ┌─────────────────┐
+│    ETHEREUM     │                      │       SUI       │
+│                 │                      │                 │
+│  IBT Token      │ ──── Bridge ────►    │  IBT Token      │
+│  (ERC-20)       │                      │  (Coin)         │
+│                 │                      │                 │
+│  burn           │                      │    receive      │
+│  tokens here    │                      │  tokens here    │
+└─────────────────┘                      └─────────────────┘
+
+```
+
 ## Setup Instructions
 
 ### 1. Start Ethereum Local Chain (Anvil)
