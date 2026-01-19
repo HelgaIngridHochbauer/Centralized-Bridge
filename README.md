@@ -200,18 +200,5 @@ Built with:
 - Verify Sui validator is running before deploying Sui contracts
 - Check that contract addresses are correctly set in `.env.local`
 
-## Future Enhancements
 
-Potential improvements for bonus points:
-- [ ] Event-driven relayer service
-- [ ] Multi-signature bridge control
-- [ ] Transaction history and status tracking
-- [ ] Support for multiple tokens
-- [ ] Bridge fee mechanism
-- [ ] Security audit and formal verification
-- [ ] Decentralized bridge with validators
-
-## License
-
-MIT
 
