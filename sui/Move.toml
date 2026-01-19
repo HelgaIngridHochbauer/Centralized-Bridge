@@ -1,0 +1,12 @@
+[package]
+name = "ibt"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/devnet" }
+
+[addresses]
+bridge = "0x0"
+
+[environments]
+localnet = "5257487e"

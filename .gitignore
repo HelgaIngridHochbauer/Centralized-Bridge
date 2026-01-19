@@ -1,0 +1,35 @@
+﻿# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+build/
+
+# Environment files (contains configuration)
+.env
+.env.local
+.env.*.local
+
+# Ethereum build artifacts
+ethereum/out/
+ethereum/cache/
+ethereum/broadcast/
+
+# Sui build artifacts
+sui/build/
+sui/Pub.*.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
