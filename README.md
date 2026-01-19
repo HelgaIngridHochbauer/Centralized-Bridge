@@ -158,12 +158,6 @@ This bridge uses a centralized approach where:
 1. **Source Chain**: Tokens are burned from the user's address by the contract owner
 2. **Destination Chain**: Tokens are minted to the user's address by the contract owner
 
-**Note**: In production, you would implement:
-- A relayer service to monitor burn events
-- Verification mechanisms
-- Multi-signature controls
-- Event-driven minting on the destination chain
-
 ### Current Implementation
 
 The current implementation demonstrates the core functionality:
@@ -171,14 +165,6 @@ The current implementation demonstrates the core functionality:
 - The deployer (bridge operator) can mint tokens on the destination chain
 - The web interface provides a seamless UX for the burn operation
 - For the centralized bridge, after a burn on the source chain, the deployer manually mints on the destination chain
-
-**Bridge Workflow:**
-1. User initiates bridge: Selects amount and direction
-2. Source chain: Tokens are burned (user approves transaction)
-3. Bridge operator: Verifies burn transaction
-4. Destination chain: Bridge operator mints equivalent tokens to user's address
-
-**Note**: In a production decentralized bridge, steps 3-4 would be automated by a relayer service with proper verification and security measures.
 
 ## Development
 
